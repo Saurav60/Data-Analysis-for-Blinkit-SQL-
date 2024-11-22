@@ -18,7 +18,7 @@ In the **queries.sql** file, you will find SQL queries designed to extract and a
 - Optimize performance with advanced SQL techniques like joins, aggregations, and subqueries.
 
 ## How to Use
-1. Download the **SQL_Queries/queries.sql** file.
+1. Download the **queries.sql** file.
 2. Execute the queries in your local SQL environment or any cloud-based SQL tool (like Google Cloud SQL or AWS RDS).
 3. Review the results and insights in the **Blinkit_DA_SauravSharma.pdf**.
 
