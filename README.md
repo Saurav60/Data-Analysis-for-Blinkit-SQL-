@@ -1,4 +1,4 @@
-# Data-Analysis-for-Blinkit-SQL-
+# Data-Analysis-for-Blinkit-SQL
 SQL-based data analysis project solving real-world business problems for a Blinkit assignment. Includes optimized queries to derive actionable insights from structured datasets.
 ## Overview
 This project showcases my work on a SQL-based data analysis problem from Blinkit, where I applied SQL queries to solve various business and data problems. The goal was to extract meaningful insights from a dataset, focusing on sales, customer behaviour, and operational metrics.
