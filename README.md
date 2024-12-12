@@ -20,12 +20,12 @@ In the **queries.sql** file, you will find SQL queries designed to extract and a
 ## How to Use
 1. Download the **queries.sql** file.
 2. Execute the queries in your local SQL environment or any cloud-based SQL tool (like Google Cloud SQL or AWS RDS).
-3. Review the results and insights in the **Blinkit_DA_SauravSharma.pdf**.
+3. Review the results and insights in the  **Blinkit_DA_SauravSharma.pdf**.
 
 ## Technologies Used
-- SQL (MySQL/PostgreSQL, or the relevant database you used)
+- SQL (MySQL)
 - Data analysis techniques (aggregation, joins, etc.)
-- Report generation tools (Word/PDF)
+- Report generation tools (MS Word)
 
 ## Contact
 If you have any questions about this project or want to talk about it more, please feel free to contact me at 
