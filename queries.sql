@@ -31,7 +31,7 @@ C.CustomerID, C.Name
 Order by 
 Total_Order_Value DESC 
 Limit 3; 
---Note: This query ensures that only the completed order contribute to the total order value. 
+--Note: This query ensures that only the completed order contributes to the total order value. 
 
 
 ---Q-A3: Retrieve the top 3 most frequently ordered products in Mumbai.
@@ -79,7 +79,7 @@ Left Join
 Orders O On S.StoreID = O.StoreID  
 Group by  
 S.StoreID, S.City, S.Area; 
---Note: Used left join and coalesce to ensure that all stores are included in the result set and total revenue is set to 0 for stores with no orders.
+--Note: Left join and coalesce were used to ensure that all stores are included in the result set and that total revenue is set to 0 for stores with no orders.
 
 
 
@@ -120,7 +120,6 @@ C.City
 Having 
 Total_Customers > 0                                      
 Order by 
-(To avoid division by zero) 
 Percentage_Single_Order_Customers DESC; 
----Summary: In given dataset Mumbai, Bangalore, and Pune have no single order customers whereas Delhi has a 100% single order customer percentage due to Charlie Brown being the only customer 
+---Summary: In the given dataset Mumbai, Bangalore, and Pune have no single-order customers whereas Delhi has a 100% single-order customer percentage due to Charlie Brown being the only customer 
 --with a single order. 
